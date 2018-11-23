@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:boxicons_flutter/boxicons_flutter.dart';
 
 void main() => runApp(MyApp());
 
@@ -27,8 +28,7 @@ class MyHomePage extends StatelessWidget {
         title: Text(title),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+        child: ListView(
           children: <Widget>[
             IconWidget(
               Icons.alarm,
@@ -41,6 +41,10 @@ class MyHomePage extends StatelessWidget {
             IconWidget(
               IconData(0xeb03, fontFamily: 'Boxicons'),
               'Boxicons',
+            ),
+            IconWidget(
+              Boxicons.bxBall,
+              'Boxicons (boxicons_flutter)',
             )
           ],
         ),

@@ -21,6 +21,7 @@ dependencies:
   cupertino_icons: ^0.1.2
 
   font_awesome_flutter: ^8.2.0
+  boxicons_flutter: ^1.0.0
 
 dev_dependencies:
   flutter_test:
